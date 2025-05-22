@@ -559,6 +559,11 @@
 }
 
 @media (max-width: 500px) {
+    .roadmap .boxes .box.orderc,
+    .roadmap .boxes .box {
+        justify-content: center;
+    }
+
     .language-switcher .choosen .flag-icon {
         width: 26px;
         min-width: 26px;
@@ -566,33 +571,34 @@
     }
     .roadmap .boxes {
         max-width: 300px;
-        margin-top: 170px;
+        margin-top: 200px;
     }
     .roadmap .boxes .box .inside h3 {
-        font-size: 14px;
+        font-size: 18px;
     }
     .roadmap .boxes .box .inside p {
-        font-size: 12px;
+        font-size: 16px;
         margin-top: 5px;
     }
     .roadmap .boxes .box.orderc .inside,
     .roadmap .boxes .box .inside {
-        max-width: 160px;
+        max-width: 200px;
+        padding-top: 10px;
     }
     .roadmap .boxes .box .inside .wf {
-        width: 600px;
-        top: calc(50% - 80px);
+        width: 700px;
+        top: calc(50% - 40px);
     }
     .roadmap .boxes .box.orderc .inside .no,
     .roadmap .boxes .box .inside .no {
-        top: -100px;
+        top: -180px;
         transform: scale(0.6);
     }
     .roadmap .boxes .box {
-        margin-bottom: -30px;
+        margin-bottom: 190px;
     }
     .roadmap {
-        padding-bottom: 100px;
+        padding-bottom: 0;
         min-height: unset;
     }
     footer .row .middle ul {
